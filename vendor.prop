@@ -119,6 +119,7 @@ ro.vendor.perf.scroll_opt=true
 
 # Radio
 persist.radio.multisim.config=dsds
+persist.vendor.data.iwlan.enable=true
 persist.vendor.radio.procedure_bytes=SKIP
 persist.vendor.radio.mt_sms_ack=30
 persist.vendor.radio.apm_sim_not_pwdn=1
@@ -133,6 +134,7 @@ persist.vendor.radio.start_ota_daemon=1
 persist.vendor.radio.sw_mbn_update=0
 ro.telephony.iwlan_operation_mode=legacy
 persist.vendor.qti.telephony.vt_cam_interface=2
+vendor.rild.libargs=-d /dev/smd0
 
 # SoC
 ro.soc.manufacturer=Qualcomm

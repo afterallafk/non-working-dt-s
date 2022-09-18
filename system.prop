@@ -77,10 +77,13 @@ ro.vendor.qti.va_aosp.support=1
 # Radio
 DEVICE_PROVISIONED=1
 persist.sys.fflag.override.settings_provider_model=false
+rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 ril.subscription.types=NV,RUIM
 rild.libargs=-d /dev/smd0
 ro.telephony.default_network=22,22
 telephony.lteOnCdmaDevice=1
+vendor.rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
+vendor.service.qti.ims.enabled=1
 persist.radio.add_power_save=1
 
 # set cutoff voltage to 3400mV
